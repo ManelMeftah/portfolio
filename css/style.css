@@ -1,0 +1,106 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+* {
+    font-family: "Source Sans Pro";
+}
+
+ html {
+    scroll-behavior: smooth;
+    background-color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12pt;
+    color: black;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    padding-top: 5%;
+}
+
+.parallax
+{
+    background-image: url('../media/harteus.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+h1
+{
+    text-align: center;
+}
+
+.horizontal {
+    border-style:none;
+    list-style:none;
+    margin:0;
+    padding: 0;
+    padding-bottom: 2%;
+    text-align:center;
+}
+
+.horizontal li{
+    display:inline;
+}
+.horizontal a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+}
+
+a.active
+{
+    color: coral;
+}
+
+.horizontal a:hover
+{
+    color:blueviolet
+}
+
+
+
+
+.pictagline
+{
+    color: white;
+    padding: 19%;
+    background:rgba(0,0,0,0.3);
+}
+
+.pictitle
+{
+    font-size: 25pt;
+    
+}
+
+.picheadline
+{
+    text-align: center;
+}
+
+div.hozontalGal {
+  margin: 5px;
+  float: left;
+  width: 100%;;
+}
+
+
+div.hozontalGal img {
+    width:  15%;
+    height: 500px;;
+    object-fit: cover;
+}
+
+p
+{
+    text-align: center;
+}
