@@ -152,13 +152,13 @@
 .gallery__item--16 {
   grid-column-start: 1;
   grid-column-end: 9;
-  grid-row-start: 25;
-  grid-row-end: 35;
+  grid-row-start: 15;
+  grid-row-end: 29;
 }
 
-.gallery__item--16 {
+.gallery__item--17 {
   grid-column-start: 1;
   grid-column-end: 9;
   grid-row-start: 10;
-  grid-row-end: 25;
+  grid-row-end: 15;
 }
