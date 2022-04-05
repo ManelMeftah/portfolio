@@ -24,7 +24,7 @@ body{
 
 .parallax
 {
-    background-image: url('../media/harteus.jpg');
+    background-image: url('../media/12.jpg');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -95,7 +95,8 @@ div.hozontalGal {
 
 
 div.hozontalGal img {
-    width:  15%;
+    padding-left: 3px;
+    width:  16%;
     height: 500px;;
     object-fit: cover;
 }
@@ -103,4 +104,6 @@ div.hozontalGal img {
 p
 {
     text-align: center;
+    padding: 15px;
 }
+
