@@ -158,6 +158,10 @@ td
     width: 50%;
 }
 
+td h3
+{
+    text-align: center;
+}
 
 #contact
 {
