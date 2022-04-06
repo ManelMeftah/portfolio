@@ -1,11 +1,13 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-* {
+* 
+{
     font-family: "Source Sans Pro";
 }
 
- html {
+ html 
+{
     scroll-behavior: smooth;
     background-color: white;
     background-attachment: fixed;
@@ -14,11 +16,13 @@
     color: black;
 }
 
-html, body{
+html, body
+{
     height: 100%;
 }
 
-body{
+body
+{
     padding-top: 5%;
 }
 
@@ -92,14 +96,16 @@ a.active, .box a
     text-align: center;
 }
 
-div.hozontalGal {
-  margin: 5px;
-  float: left;
-  width: 100%;;
+div.hozontalGal 
+{
+    margin: 5px;
+    float: left;
+    width: 100%;;
 }
 
 
-div.hozontalGal img {
+div.hozontalGal img 
+{
     padding-left: 3px;
     width:  16%;
     height: 500px;
@@ -127,25 +133,24 @@ p
     padding-top: .1rem;
 }
 
-.fade {
-      /*margin: 50px;
-      padding: 50px;
-      background-color: lightgreen;*/
-      opacity: 1;
+.fade
+{
+    opacity: 1;
 }
 
 
 
-table img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block; 
+table img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
 }
 
-table, td, tr{
-    
-      border-collapse: collapse;
+table, td, tr
+{
+    border-collapse: collapse;
 }
 
 td
@@ -160,23 +165,23 @@ td
 }
 
 .boxContainer {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 3rem;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
 }
 
 .boxContainer .box
 {
-  width: 250px;
-  margin: 20px;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 0.15rem 0.6rem rgba(60, 50, 50, 0.15);
-  border-radius: 3px;
+    width: 250px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0.15rem 0.6rem rgba(60, 50, 50, 0.15);
+    border-radius: 3px;
 }
 
 .box a
@@ -191,6 +196,99 @@ td
     transition: 0.4s;
 }
 
-#contact i:hover{
+#contact i:hover
+{
     transform: translateY(-25%);
+}
+
+.projets
+{
+    padding: 2.3rem 0;
+}
+
+.projets h2 
+{
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.lig
+{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.left
+{
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.left img
+{
+    height: 100%;
+}
+
+
+.rayContainer
+{
+    float: left;
+    object-fit: cover;
+
+}
+.right
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h3
+{
+    font-size: 2rem;
+}
+
+.iconList
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.iconList p
+{
+    margin-right: 1.5rem;
+}
+
+.iconList li
+{
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.btn
+{
+    margin-left: 3rem;
+    color: coral;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: coral;
+    width: 20%;
+    text-align: center;
+        
+}
+
+.btn:hover
+{
+    background-color: coral;
+    color: white;
+}
+
+.gallry_item:hover
+{
+    background-clip: black;
 }

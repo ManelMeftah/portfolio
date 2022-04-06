@@ -27,15 +27,13 @@
   display: block; 
 }
 
+/*Items de la gallerie 1*/
+
 .gallery__item--1 {
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 6;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 2;  */
-  /* grid-row: 1 / span 2; */
 }
 
 .gallery__item--2 {
@@ -43,10 +41,6 @@
   grid-column-end: 9;
   grid-row-start: 1;
   grid-row-end: 4;
-
-  /** Alternative Syntax **/
-  /* grid-column: 3 / span 2;  */
-  /* grid-row: 1 / span 2; */
 }
 
 .gallery__item--3 {
@@ -54,10 +48,6 @@
   grid-column-end: 9;
   grid-row-start: 4;
   grid-row-end: 6;
-
-  /** Alternative Syntax **/
-  /* grid-column: 5 / span 4;
-  grid-row: 1 / span 5; */
 }
 
 .gallery__item--4 {
@@ -65,10 +55,6 @@
   grid-column-end: 7;
   grid-row-start: 6;
   grid-row-end: 11;
-
-  /** Alternative Syntax **/
-  /* grid-column: 1 / span 4;  */
-  /* grid-row: 3 / span 3; */
 }
 
 .gallery__item--5 {
@@ -128,6 +114,8 @@
   grid-row-end: 30;
 }
 
+/*Items de la gallerie 2*/
+
 .gallery__item--13 {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -161,4 +149,63 @@
   grid-column-end: 9;
   grid-row-start: 10;
   grid-row-end: 15;
+}
+
+/*Items de la gallerie 1*/
+
+.gallery__item--18 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+
+.gallery__item--19 {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+
+.gallery__item--20 {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 9;
+  grid-row-end: 13;
+}
+
+.gallery__item--21 {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 13;
+  grid-row-end: 22;
+}
+
+.gallery__item--22 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 23;
+  grid-row-end: 24;
+}
+
+.gallery__item--23 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 24;
+  grid-row-end: 30;
+}
+
+.gallery__item--24 {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 23;
+  grid-row-end: 30;
+}
+
+.para1
+{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 23;
+  grid-row-end: 23;  
 }

@@ -7,7 +7,14 @@ $(document).ready(function(){
     
     for(i=13; i<18; i++)
         {   
+            
             $("#gallerie2").append("<figure class='gallery__item gallery__item--"+i+"'><br><a target='_blank' href='../media/"+i+".jpg' ><br><img src='../media/"+i+".jpg'  class='gallery__img'><br></figure><br>");
+        }
+    
+    for(i=18; i<25; i++)
+        {   if(i==22)
+                $("#gallerie3").append("<p class='para1'>Logo de l'association et autres idées de flyers</p>");
+            $("#gallerie3").append("<figure class='gallery__item gallery__item--"+i+"'><br><a target='_blank' href='../media/"+i+".jpg' ><br><img src='../media/"+i+".jpg'  class='gallery__img'><br></figure><br>");
         }
    
 });
