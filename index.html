@@ -4,19 +4,31 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="auteur" content="Meftah Manel">
-        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="css/style.css">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
         <title> Manel Meftah </title>
-    </head>
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+         
+        <script src="js/script.js"></script>
+
+    </head>        
+    
     <body>
         <div id="bloc_page">
             <header>
                 <div id="bloc_principal">
                     <h1>Manel Meftah</h1>
                         <ul class="horizontal">
-                            <li><a class="active" href="index.html">Accueil</a> </li>
-                            <li><a href="html/illust.html">Illustrations</a></li>
-                            <li><a href="html/projets">Projets</a></li>
-                            <li><a href="html/cv.html">CV</a></li>
+                            <li><a class="active lien" href="index.html">Accueil</a> </li>
+                            <li><a class="lien" href="../html/illust.html">Illustrations</a></li>
+                            <li><a class="lien"  href="../html/projets">Projets</a></li>
+                            <li><a href="https://drive.google.com/file/d/1toQI7yoQK__xiGW0oT4Z6mEzaCL8Tzi3/view?usp=sharing" target="_blank" class="lien">CV</a></li>
                             
                         </ul>
                 </div>
@@ -24,32 +36,81 @@
             
         <section class="parallax">
       <div class="pictagline" style="height: 200px;">
-        <h1 class="pictitle">Illustrations digitales</h1>
-        <p class="picheadline">Gallerie</p>
+        <h1 class="pictitle">Bonjour ! Je m'apelle Manel</h1>
+        <p class="picheadline">Artiste hobbyiste et étudiante en 3ème année d'informatique à l'université de Bourgogne</p>
       </div>
     
     <div class="parallax">
-        <div class="hozontalGal">
+        
+        <div class="hozontalGal ">
             <div class="container">
-                <a target="_blank" href="media/1.jpg"><img src="media/1.jpg" ></a>
-                <a target="_blank" href="media/2.jpg"><img src="media/2.jpg" ></a>
-                <a target="_blank" href="media/3.jpg"><img src="media/3.jpg" ></a>
-                <a target="_blank" href="media/4.jpg"><img src="media/4.jpg" ></a>
-                <a target="_blank" href="media/5.jpg"><img src="media/5.jpg" ></a>
-                <a target="_blank" href="media/6.jpg"><img src="media/6.jpg" ></a>
+                <a target="_blank" href="../media/1.jpg"><img src="../media/1.jpg" ></a>
+                <a target="_blank" href="../media/2.jpg"><img src="../media/2.jpg" ></a>
+                <a target="_blank" href="../media/3.jpg"><img src="../media/3.jpg" ></a>
+                <a target="_blank" href="../media/4.jpg"><img src="../media/4.jpg" ></a>
+                <a target="_blank" href="../media/5.jpg"><img src="../media/5.jpg" ></a>
+                <a target="_blank" href="../media/6.jpg"><img src="../media/6.jpg" ></a>
 
             </div>
             
-        </div>        
-            
+        </div>  
+ 
     </div>
 
+    <div class="more">
+        <a class="lien"  href="html/illust.html">Voir plus</a>    
+        
+    </div>
 
-
-            <div class="parallax"></div>
+        <div class="projectGal">
+            <div class="container ">
+                <h1>Projets </h1>
+                <table>
+                <tr>
+                    <td><a target="_blank" href="../media/5.jpg"><img src="../media/5.jpg" ></a></td>
+                    <td>Texte 1</td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="../media/6.jpg"><img src="../media/6.jpg" ></a></td>
+                    <td>Texte 1</td>
+                </tr>
+                <tr>
+                    <td><a target="_blank" href="../media/1.jpg"><img src="../media/1.jpg" ></a></td>
+                    <td>Texte 1</td>
+                </tr>
+                
+                </table>
+            </div>
+        </div>
+            
+ 
     </section>
 
 </body>
-       
+ 
+<footer>
+    <section id="contact">
+        <h1>Me Contacter</h1>
+        <br><br>
+        <div class="boxContainer">
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h2>Email</h2>        <p>manelmeftah2000@gmail.com</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-github-square"></i>
+                <h2>Github</h2>    
+                <a  class="lien" href="https://github.com/ManelMeftah" target="_blank">ManelMeftah</a>
+            </div>
+            <div class="box">
+                <i class="fab fa-linkedin"></i>
+                <h2>LinkedIn</h2>
+                <a class="lien" href="https://www.linkedin.com/in/manel-meftah-6601071a4" target="_blank">Manel Meftah</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+</footer>
     
 </html>
